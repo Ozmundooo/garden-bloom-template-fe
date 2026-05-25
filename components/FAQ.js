@@ -4,28 +4,24 @@ import FadeIn from "./FadeIn";
 
 const faqs = [
   {
-    q: "How far in advance should I book?",
-    a: "For weddings, we recommend 9–12 months ahead to secure your date. For events, 4–6 weeks is usually enough. Urgent requests — reach out directly and we'll do our best.",
+    q: "Lorem ipsum dolor sit amet?",
+    a: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
-    q: "Do you travel outside Toronto?",
-    a: "Yes — we regularly work across the GTA and beyond. Destination weddings and out-of-province events are available with additional logistics planning.",
+    q: "Lorem ipsum dolor sit amet?",
+    a: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
-    q: "Is there a minimum spend?",
-    a: "Our wedding minimum is $3,500. For events, $1,200. Bouquets and arrangements start from $180. Workshops are priced per person.",
+    q: "Lorem ipsum dolor sit amet?",
+    a: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
-    q: "Can I choose specific flowers?",
-    a: "Absolutely. We always incorporate your preferences and colour palette. Our one condition: we work with seasonal, fresh stems for maximum beauty and longevity.",
+    q: "Lorem ipsum dolor sit amet?",
+    a: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
-    q: "Do you handle setup and takedown?",
-    a: "Yes — full setup and supervised takedown is included in all wedding and event packages. For smaller orders, delivery and placement is available for an additional fee.",
-  },
-  {
-    q: "Can arrangements be fully customised?",
-    a: "Every single arrangement is made to order. From colour palette to bloom selection to vessel choice — we shape everything around your vision.",
+    q: "Lorem ipsum dolor sit amet?",
+    a: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
 ];
 
