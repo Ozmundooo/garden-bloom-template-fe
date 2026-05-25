@@ -1,26 +1,117 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: "Jedira";
+  src: url("/Jedira-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jedira";
+  src: url("/Jedira-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@font-face {
+  font-family: "BINSEKA";
+  src: url("/BINSEKA-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: "BINSEKA";
+  src: url("/BINSEKA-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BINSEKA";
+  src: url("/BINSEKA-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BINSEKA";
+  src: url("/BINSEKA-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BINSEKA";
+  src: url("/BINSEKA-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+  scroll-behavior: auto;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: #f4efe6;
+  color: #2c2c1a;
+  font-family: "BINSEKA", sans-serif;
+  overflow-x: hidden;
+}
+
+:root {
+  --cream: #f4efe6;
+  --off: #edeae0;
+  --green: #6b7a30;
+  --bright: #8a9e3e;
+  --light: #d4dcb0;
+  --green-mid: #b8c48a;
+  --green-dark: #3d4a1a;
+  --ink: #2c2c1a;
+  --ink2: #4a4a2e;
+  --ink3: #888870;
+  --border: #ddd8cc;
+
+  --font-display: "Jedira", serif;
+  --font-body: "BINSEKA", sans-serif;
+}
+@theme inline {
+  --font-display: "Jedira", serif;
+  --font-body: "BINSEKA", sans-serif;
+  --color-cream: #f4efe6;
+  --color-off: #edeae0;
+  --color-green: #6b7a30;
+  --color-bright: #8a9e3e;
+  --color-light: #d4dcb0;
+  --color-green-mid: #b8c48a;
+  --color-green-dark: #3d4a1a;
+  --color-ink: #2c2c1a;
+  --color-ink2: #4a4a2e;
+  --color-ink3: #888870;
+  --color-border: #ddd8cc;
+}
+
+/* Nav responsive */
+.nav-desktop-links {
+  display: none;
+}
+.nav-hamburger {
+  display: block;
+}
+@media (min-width: 768px) {
+  .nav-desktop-links {
+    display: flex;
+    align-items: center;
+    gap: 36px;
+  }
+  .nav-hamburger {
+    display: none;
+  }
 }
